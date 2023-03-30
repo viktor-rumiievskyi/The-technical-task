@@ -30,7 +30,6 @@ h1, h2, h3, h4, h5, h6 {
 .header {
 	width: 100%;
 	padding-top: 40px;
-
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -184,5 +183,43 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 100px;
 	display: flex;
 	align-items:center;
-	line-height: 5;
+	/* line-height: 5; */
+}
+
+button {
+	background-color: #ED1847;
+	color: #fff;
+	border-radius: 100px;
+	border-color: #ED1847;
+	min-height:30px; 
+	min-width: 120px;
+	cursor: pointer;
+}
+
+
+.dep_btn  {
+	background: #fff;
+	color: #2b1050;
+}
+
+
+.email {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.email img {
+	background-color: #2b1050;
+}
+
+.em {
+	display: flex;
+	align-items:center;
+	position: absolute;
+}
+
+.em p {
+	color: #fff;
 }
