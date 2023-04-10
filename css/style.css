@@ -142,7 +142,6 @@ h6 {
 /* Performing  */
 .section {
   padding: 80px 0;
-	height: 1200px;
 }
 
 .section__header {
@@ -169,35 +168,127 @@ h6 {
   text-align: center;
 }
 
-.city {
-  display: flex;
-	width: 1200px;
+.city-block {
+	height: 540px;
+	background: url('../img/All_city.svg') 0 100%/100% 100% no-repeat;
+	position: relative;
 }
 
 .bri {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  flex: 0 1 auto;
+	width: 300px;
+	height: 100%;
 }
 
-.flag {
-  position: relative;
+.flag1 {
+  position: absolute;
   text-align: center;
-  left: -50px;
-}
-
-.flag p {
-  left: 50%;
+	top: -10px;
+  left: 60px;
   font-size: 21px;
   font-weight: 700;
 }
 
-.flag_img {
-  text-align: center;
-  position: relative;
+.flag_img1 {
+	position: absolute;
+	top: 50px;
+	left: 100px;
 }
 
+.flag2 {
+  position: absolute;
+  text-align: center;
+	top: 40px;
+  left: 430px;
+  font-size: 21px;
+  font-weight: 700;
+}
+
+.flag_img2 {
+	position: absolute;
+	top: 100px;
+	left: 440px;
+}
+
+.flag3 {
+  position: absolute;
+  text-align: center;
+	top: -10px;
+  left: 800px;
+  font-size: 21px;
+  font-weight: 700;
+}
+
+.flag_img3 {
+	position: absolute;
+	top: 50px;
+	left: 800px;
+}
+
+.flag4 {
+  position: absolute;
+  text-align: center;
+	top: 40px;
+  left: 1060px;
+  font-size: 21px;
+  font-weight: 700;
+}
+
+.flag_img4 {
+	position: absolute;
+	top: 100px;
+	left: 1060px;
+}
+
+.flag5 {
+  position: absolute;
+  text-align: center;
+	top: -30px;
+  left: 1360px;
+  font-size: 21px;
+  font-weight: 700;
+}
+
+.flag_img5 {
+	position: absolute;
+	top: 30px;
+	left: 1360px;
+}
+
+.flag_cloud1 {
+	position: absolute;
+	top: 160px;
+	left: 20px;
+}
+
+.flag_cloud2 {
+	position: absolute;
+	top: 180px;
+	left: 300px;
+}
+
+.flag_cloud3 {
+	position: absolute;
+	top: 60px;
+	left: 430px;
+}
+
+.flag_cloud4 {
+	position: absolute;
+	top: 180px;
+	left: 940px;
+}
+
+.flag_cloud5 {
+	position: absolute;
+	top: 10px;
+	left: 1050px;
+}
+
+.flag_cloud6 {
+	position: absolute;
+	top: 50px;
+	left: 1250px;
+}
 .foto_1,
 .foto_2 {
   position: relative;
@@ -208,9 +299,6 @@ h6 {
   left: -78px;
 }
 
-.city_1 {
-  text-align: center;
-}
 /* Performing  */
 
 
@@ -242,7 +330,8 @@ h6 {
   margin: 0 20px;
 }
 
-.card button {
+.card button { 
+	position: relative;
 	background-color: #ed1847;
   color: #fff;
   border-radius: 100px;
@@ -254,13 +343,22 @@ h6 {
 	height: 50px;
 }
 
-.dep_btn{
-	background-color: white;
-}
-
 button.dep_btn {
 	background: #fff;
 	color: #ED1847;
+}
+
+.dep_btn2::after {
+	position: absolute;
+}
+.dep_btn2:hover {
+  color: #000;
+}
+
+.dep_btn2:active {
+	top: 4px;
+	background-color: #fff;
+	color: #ed1847;
 }
 /* Individual cards */
 
@@ -308,6 +406,7 @@ button.dep_btn {
 }
 
 .dep button {
+	position: relative;
 	background-color: #ed1847;
   color: #fff;
   border-radius: 100px;
@@ -358,6 +457,7 @@ button.dep_btn1 {
 }
 
 .email_1 button {
+	position: relative;
 	background-color: #ed1847;
   color: #fff;
   border-radius: 100px;
@@ -389,6 +489,7 @@ button.dep_btn1 {
 }
 
 .global_2 button {
+	position: relative;
   margin: 0 auto;
 }
 
@@ -421,6 +522,7 @@ button.dep_btn1 {
 }
 
 .global button {
+	position: relative;
 	background-color: #ed1847;
   color: #fff;
   border-radius: 100px;
@@ -512,6 +614,7 @@ button.dep_btn1 {
 }
 
 .block button {
+	position: relative;
 	background-color: #ed1847;
   color: #fff;
   border-radius: 100px;
@@ -663,6 +766,7 @@ button.dep_btn1 {
 }
 
 .form button {
+	position: relative;
 	background-color: #ed1847;
   color: #fff;
   border-radius: 100px;
@@ -699,7 +803,10 @@ button.dep_btn1 {
   align-items: center;
   color: #fff;
 	margin: 0 0 27px 0;
+}
 
+.footer_lang_img{
+	cursor: pointer;
 }
 
 .footer_lang_text {
